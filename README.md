@@ -20,4 +20,8 @@ Then start the container again and it will launch the server on port 64738:
 
 `docker start mumble-server`
 
+You can follow the scripts for a baseline of start and stoping the server.
+
 The log file will be created in /path/to/config/mumble-server/mumble-server.log, and the sqlite DB will be created in that directory as well.
+
+Make sure the folder of where the mumble-server is located is in a secure location. Recomend only giving read only access to the docker group.
