@@ -12,6 +12,8 @@ To initialize the server configuration, run this:
 
 `docker run --name=mumble-server -d --net=host -v /path/to/config/mumble-server:/data -t coppit/mumble-server`
 
+A example [init.sh](scripts/init.sh) script can be used as an example.
+
 The container will create a config file in /path/to/config/mumble-server. Edit the file, setting the server password and any welcome message.
 
 Then start the container again and it will launch the server on port 64738:
